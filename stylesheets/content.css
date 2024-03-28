@@ -1,0 +1,809 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.background{
+    position: absolute;
+    width: 101.7%;
+    height: 154vw;
+    overflow: hidden;
+    margin-left: -2%;
+    margin-top: -1%;
+}
+
+
+.shroom{
+    position: absolute;
+    width: 100%;
+}
+
+.initeal{
+ text-shadow: white 0px 0px 3px;
+  font-size: 1.5vw;
+  font-weight: bold;
+  position: absolute;
+  z-index: 2;
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+
+.tea_zvuka{
+    text-shadow: white 0px 0px 3px ;
+    font-weight: bold;
+    margin-top: 4%;
+    font-size: 1.5vw;
+    position: absolute;
+    z-index: 2;
+    margin-left: 78%;
+    animation: zvuka 2s linear infinite;
+  }
+
+
+.leaf1{
+    width: 25%;
+    height: 35%;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 20%;
+}
+
+#leaf1_1{
+    cursor: pointer;
+    position: absolute;
+    width: 130%;
+    margin-left: -15%;
+    animation: leaf1 3s ease-in-out infinite;
+}
+
+@keyframes leaf1{
+    0%{rotate: 0deg;margin-top: 20%;}
+    50%{rotate: 15deg;margin-top: 15%;}
+    100%{rotate: 0deg;margin-top: 20%;} 
+}
+
+.leaf1:hover ~ .white_tea{
+  opacity: 100%;
+}
+
+.white_tea{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 55%;
+    opacity: 0%;
+    width: 27%;
+    height: 10%;
+}
+
+.white_tea_1{
+    width: 82%;
+}
+
+.text_white{
+    text-shadow: white 0px 0px 3px;
+  font-size: 1.5vw;
+  font-weight: bold;
+  position: absolute;
+  z-index: 2;
+  margin-left: 4%;
+  margin-top: 3%;
+
+}
+
+.leaf2{
+    width: 24%;
+    height: 36.5%;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 20%;
+    animation: leaf2 4s ease-in-out infinite;
+}
+
+@keyframes leaf2{
+    0%{rotate: 0deg; margin-top: 35%;}
+    50%{rotate: 20deg;margin-top: 30%;}
+    100%{rotate: 0deg;margin-top: 35%} 
+}
+
+.leaf2_1{
+    cursor: pointer;
+    position: absolute;
+    width: 127%;
+    margin-top: 10%;
+    margin-left: -20%;
+}
+
+.leaf2:hover ~ .green_tea{
+    opacity: 100%;
+  }
+
+.green_tea{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 8%;
+    opacity: 0%;
+    width: 53%;
+    height: 10%;
+    
+}
+
+.green_tea_1{
+    width: 56%;
+}
+
+.text_green{
+text-shadow: white 0px 0px 3px;
+  font-size: 1.5vw;
+  font-weight: bold;
+  position: absolute;
+  z-index: 2;
+  margin-left: 2%;
+  margin-top: 1.8%;
+}
+
+.leaf3{
+    z-index: 4;
+    width: 18%;
+    height: 32%;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 56%;
+    animation: leaf3 2.5s ease-in-out infinite;
+}
+
+@keyframes leaf3{
+    0%{rotate: 0deg; margin-top: 60%;}
+    50%{rotate: -10deg; margin-top: 57%}
+    100%{rotate: 0deg; margin-top: 60%} 
+}
+
+.leaf3_1{
+    cursor: pointer;
+    position: absolute;
+    width: 160%;
+    margin-top: 5%;
+    margin-left: -25%;
+}
+
+.leaf3:hover ~ .black_tea{
+    opacity: 100%;
+  }
+
+.black_tea{
+    z-index: 5;
+    position: absolute;
+    margin-top: 79%;
+    margin-left: 50%;
+    opacity: 0%;
+    width: 33%;
+}
+
+.black_tea_1{
+    width: 77%;
+}
+
+.text_black{
+    text-shadow: white 0px 0px 3px;
+      font-size: 1.5vw;
+      font-weight: bold;
+      position: absolute;
+      z-index: 2;
+      margin-left: 3%;
+      margin-top: 2.8%;
+    }
+
+
+.par{
+position: absolute;
+z-index: 0;
+width: 19vw;
+height: 9vw;
+background-color: white;
+border-radius: 50%;
+margin-top: 114%;
+margin-left: 38%;
+animation: par 3s infinite;
+
+}
+
+@keyframes par{
+  0%{box-shadow: 0px 0px 15px 15px white;};
+  25%{box-shadow: 0px 0px 10px 10px white;}
+  50%{box-shadow: 0px 0px 20px 20px white;}
+  75%{box-shadow: 0px 0px 10px 10px white;}
+  100%{box-shadow: 0px 0px 15px 15px white;}
+}
+
+.teapot{
+    z-index: 2;
+    position: absolute;
+    margin-top: 109%;
+    margin-left: 17%;
+    width: 62%;
+    height: 50%;
+}
+
+.teapot_1{
+    width: 100%;
+}
+
+.teapot_crishka{
+    z-index: 3;
+    position: absolute;
+    margin-top: 104%;
+    margin-left: 35.6%;
+    width: 46%;
+
+}
+
+.teapot_crishka_1{
+    width: 62%;
+    margin-left: -2.5%;
+    cursor: move;
+    
+}
+
+
+
+#box {
+    margin-left: 2%;
+    width: 97%;
+    height: 150vw;
+    position: absolute;
+    overflow:hidden;
+  }
+    
+    @keyframes anim {
+      0% {width: 2px; height: 2px; }
+      10% {width: 3px; height: 3px;}
+      20% {width: 4px; height: 4px; }
+      30% {width: 5px; height: 5px; }
+      40% {width: 6px; height: 6px; }
+      50% {width: 7px; height: 7px; }
+      60% {width: 8px; height: 8px; }
+      70% {width: 8px; height: 8px;}
+      80% {width: 8px; height: 8px; }
+      90% {width: 8px; height: 8px; }
+      100% {width: 8px; height: 8px; }
+    }
+
+#bee {
+    top: 10px;
+    left: 20px;
+      width: 10%;
+      position: absolute;       
+      transition:top 1s, left 1s;
+      animation: anim 1.8s steps(1) infinite;
+    }
+
+
+
+
+.text_end{
+    text-shadow: white 0px 0px 3px;
+      font-size: 1.5vw;
+      font-weight: bold;
+      position: absolute;
+      z-index: 2;
+      margin-left: 2%;
+      margin-top: 150%;
+    
+}
+
+
+.first_screen{
+    display: block;
+}
+
+.second_screen{
+    display: block;
+    overflow: hidden;
+}
+
+.third_screen{
+    display: block;
+    overflow-y: hidden;
+}
+
+.sectionblock{
+    display: block;
+}
+
+.sectionnone{
+    display: none;
+}
+
+.back1_2{
+    overflow: hidden;
+    position: absolute;
+    width: 102%;
+    margin-top: -2.5%;
+    margin-left: -2%;
+    height: 50.45vw;
+}
+
+.background_2{
+    width: 100%;
+
+}
+
+.bee2{
+    position: absolute;
+    margin-top: 10%;
+}
+
+
+
+.piramidka{
+    position: absolute;
+    margin-left: 35%;
+    width: 40%;
+    margin-top: -5%;
+    
+}
+
+.piramidka_1{
+    width: 70%;
+    
+}
+
+.cvetok1{
+    position: absolute;
+    width: 7%;
+    margin-top: -3%;
+    margin-left: 91%;
+    cursor: pointer;
+
+
+}
+
+
+.cup1{
+    position: absolute;
+    width: 23%;
+    margin-top:25%;
+    margin-left: 70%
+}
+
+.cup1_1{
+    width: 100%;
+    cursor: move;
+}
+
+.cup2{
+    z-index: 2;
+    position: absolute;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 13%;
+    
+}
+
+.cup2_1{
+    width: 100%;
+    cursor: move;
+}
+
+.cup3{
+    z-index: 3;
+    position: absolute;
+    width: 27%;
+    margin-top: 20%;
+    margin-left: 9%;
+}
+
+.cup3_1{
+    width: 100%;
+    cursor: move;
+}
+
+
+.cup4{
+    position: absolute;
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 68%;
+    
+}
+
+.cup4_1{
+    width: 100%;
+    cursor: move;
+}
+
+.struni_back1{
+    width: 101%;
+    z-index: 3;
+    position: absolute;
+    margin-top: -63%;
+    margin-left: -1%;
+}
+.struni_back_1{
+    width: 100%;
+}
+
+.struni_back2{
+    overflow: hidden;
+    width: 101%;
+    height: 19.95vw;
+    z-index: 2;
+    position: absolute;
+    margin-top:28%;
+    margin-left: -1%;
+}
+
+.struni_back_2{
+    width: 100%;
+}
+
+
+.cvetok2{
+    z-index: 5;
+    position: absolute;
+    width: 7%;
+    margin-top: -2%;
+    margin-left: 91%;
+    cursor: pointer;
+
+
+}
+
+.struna_1{
+    cursor: pointer;
+    position: absolute;
+    width: 70%;
+    overflow: hidden;
+    z-index: 4;
+    margin-left: 13%;
+}
+
+.animation_1{
+    width: 4400%;
+    margin-left: 2%;
+}
+.animation_2{
+    margin-top: -13.2%;
+    width: 4400%;
+    margin-left: 2%;
+}
+.animation_3{
+    width: 4400%;
+    margin-left: 2%;
+    margin-top: -13.2%;
+}
+.animation_4{
+    width: 4400%;
+    margin-left: 2%;
+    margin-top: -13.2%;
+}
+
+.box_animate_1{
+    animation: 1.5s anim_1  steps(1);
+    
+}
+
+
+
+@keyframes anim_1{
+    0%{margin-left: 0%;}
+    2.38%{margin-left: -104%;}
+    4.76%{margin-left: -210%;}
+    7.14%{margin-left: -316%;}
+    9.52%{margin-left: -420%;}
+    11.9%{margin-left: -524%;}
+    14.28%{margin-left: -629%;}
+    16.66%{margin-left: -734%;}
+    19.04%{margin-left: -839%;}
+    21.42%{margin-left: -944%;}
+    23.80%{margin-left: -1049%;}
+    26.19%{margin-left: -1155%;}
+    28.57%{margin-left: -1259%;}
+    30.95%{margin-left: -1365%;}
+    33.33%{margin-left: -1470%;}
+    35.71%{margin-left: -1575%;}
+    38.09%{margin-left: -1680%;}
+    40.47%{margin-left: -1784%;}
+    42.85%{margin-left: -1890%;}
+    45.23%{margin-left: -1995%;}
+    47.61%{margin-left: -2100%;}
+    50%{margin-left: -2205%;}
+    52.38%{margin-left: -2310%;}
+    54.76%{margin-left: -2415%;}
+    57.14%{margin-left: -2520%;}
+    59.52%{margin-left: -2630%;}
+    61.9%{margin-left: -2730%;}
+    64.28%{margin-left: -2835%;}
+    66.66%{margin-left: -2939%;}
+    69.04%{margin-left: -3043%;}
+    71.42%{margin-left: -3148%;}
+    73.80%{margin-left: -3253%;}
+    76.19%{margin-left: -3358%;}
+    78.57%{margin-left: -3463%;}
+    80.95%{margin-left: -3568%;}
+    83.33%{margin-left: -3674%;}
+    85.71%{margin-left: -3778%;}
+    88.09%{margin-left: -3884%;}
+    90.47%{margin-left: -3988%;}
+    92.85%{margin-left: -4093%;}
+    95.23%{margin-left: -4198%;}
+    97.61%{margin-left: -4308%;}
+    100%{margin-left: -4408%;}
+}
+
+.gvozdi{
+    color: white;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.krug1{
+    position: absolute;
+    z-index: 5;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 0%;
+    margin-top: 6%;
+    margin-left: 13%;
+}
+
+.krug2{
+    position: absolute;
+    z-index: 5;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 0%;
+    margin-top: 14%;
+    margin-left: 13%;
+}
+.krug3{
+    position: absolute;
+    z-index: 5;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 0%;
+    margin-top: 22%;
+    margin-left: 13%;
+}
+.krug4{
+    position: absolute;
+    z-index: 5;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 0%;
+    margin-top: 30%;
+    margin-left: 13%;
+}
+.krug5{
+    position: absolute;
+    z-index: 5;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 0%;
+    margin-top: 6%;
+    margin-left: 80%;
+}
+.krug6{
+    position: absolute;
+    z-index: 5;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 0%;
+    margin-top: 14%;
+    margin-left: 80%;
+}
+.krug7{
+    position: absolute;
+    z-index: 5;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 0%;
+    margin-top: 22%;
+    margin-left: 80%;
+}
+.krug8{
+    position: absolute;
+    z-index: 5;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 0%;
+    margin-top: 30%;
+    margin-left: 80%;
+}
+
+.back4{
+    position: absolute;
+    width: 100.5%;
+    height: 49.96vw;
+    margin-left: -1%;
+    margin-top: -2%;
+    overflow: hidden;
+}
+
+.back4_1{
+    width: 100%;
+}
+
+.cvetok3{
+    z-index: 5;
+    position: absolute;
+    width: 7%;
+    margin-top: -2%;
+    margin-left: 91%;
+    cursor: pointer;
+}
+
+
+.vaze{
+    z-index: 2;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 32%;
+    width: 30%;
+}
+
+.vaze_1{
+    
+    width: 100%;
+}
+
+.flower1_vaze{
+    position: absolute;
+    margin-top: 0%;
+    width: 20%;
+    height: 10%;
+    margin-left: 55%;
+    z-index: 2;
+    cursor: move;
+}
+
+
+.flower1_vaze1{
+    width: 150%;
+}
+
+.flower2_vaze{
+    z-index: 2;
+    position: absolute;
+    margin-top: 5%;
+    width: 20%;
+    height: 10%;
+    cursor: move;
+}
+
+
+.flower2_vaze2{
+    width: 150%;
+}
+
+.flower3_vaze{
+    z-index: 2;
+    position: absolute;
+    margin-top: 5%;
+    width: 9%;
+    height: 10%;
+    cursor: move;
+}
+
+
+.flower3_vaze3{
+    width: 150%;
+}
+
+
+.gotovo{
+  position: absolute;
+width: 7%;
+margin-top: 4%;
+ margin-left: 0.5%;
+ cursor: pointer;
+}
+
+.gotovo_1{
+    width: 100%;
+}
+
+.text_gotovo{
+    z-index: 6;
+    position: absolute;
+    text-shadow: white 0px 0px 3px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    margin-left: 11.5%;
+    margin-top: -41%;
+}
+
+
+.soberi{
+ position: absolute;
+ width: 20%;
+ margin-top: -2%;
+ margin-left: 0.5%;
+}
+
+.soberi_1{
+width: 100%;
+}
+
+.text_soberi{
+    z-index: 6;
+    position: absolute;
+    text-shadow: white 0px 0px 3px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    margin-left: 4%;
+    margin-top: -23%;
+}
+
+
+.spasibo{
+    position: absolute;
+    width: 12.7%;
+    margin-top: -2%;
+    margin-left: 0.5%;
+   }
+   
+   .spasibo_1{
+   width: 100%;
+   }
+
+.text_spasibo{
+    z-index: 6;
+    position: absolute;
+    text-shadow: white 0px 0px 3px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    margin-left: 6%;
+    margin-top: -37%;
+
+}
+
+
+.compoz{
+    z-index: 5;
+    position: absolute;
+    width: 13%;
+}
+
+.compoz_1{
+    width: 100%;
+}
+
+
+.text_compoz{
+    z-index: 6;
+    position: absolute;
+    text-shadow: white 0px 0px 3px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    margin-left: 8%;
+    margin-top: -22%;
+}
+
+
+
+
+
+
+
+
+
+
+
